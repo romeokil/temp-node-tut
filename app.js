@@ -1,4 +1,5 @@
-const _=require('loadash');
-const items=[1,[2,[3,[4]]]];
-const newitems=_.flattenDeep(items);
-console.log(newitems);
+console.log("This is my first task");
+setTimeout(() => {
+    console.log("Request for ordering food");
+}, 2000);
+console.log("Continuing another task");
